@@ -4,7 +4,7 @@ clevrML is an End-to-End platform for creating, editing, deploying and using Mac
 
 ## Table of Contents
 * Install clevrML SDK
-* Quckstart
+* Quickstart
 * Model Types
 * Official Documentation
 
