@@ -14,7 +14,7 @@ clevrML is an End-to-End platform for creating, editing, deploying and using Mac
 Currently, the clevrML SDK for the clevrML Developer API is only supported in Python 3, however releases in other languages are coming soon.
 Language | Installation
 ------------ | -------------
-Python 3 | `pip install clevrml`
+Python 3 | `coming soon`
 
 
 
