@@ -1,4 +1,5 @@
-# clevrML
+![Image](https://github.com/clevr-Technologies/clevrML/blob/main/clevrML%20%20%20.png)
+
 clevrML is an End-to-End platform for creating, editing, deploying and using Machine Learning models using clevr's state-of-the-art technology Active Memory Learning (AML). With AML, you can build and deploy your Machine Learning model in as little as 10 seconds. For more information, please visit www.clevrml.com
 
 ## Table of Contents
