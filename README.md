@@ -8,11 +8,14 @@ clevrML is an End-to-End platform for creating, editing, deploying and using Mac
 * Official Documentation
 
 
+
 ## Install clevrML SDK
 Currently, the clevrML SDK for the clevrML Developer API is only supported in Python 3, however releases in other languages are coming soon.
 Language | Installation
 ------------ | -------------
 Python 3 | `pip install clevrml`
+
+
 
 
 ### Quickstart
@@ -66,6 +69,7 @@ model.edit_model(
    model_name="Pet-Classifier"
 )
 ```
+
 
 ### Model Types
 
