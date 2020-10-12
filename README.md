@@ -25,9 +25,10 @@ Building a model on clevrML is simple, smooth and efficient. Using the clevrML P
 
 ```python
 from clevrml import Image_Model
+import os
 
 model = Image_Model()
-key = "<YOUR API KEY>"     # see official clevrML docs for obtaining an API Key
+key = os.environ['clevrml-key']    # see official clevrML docs for obtaining an API Key
 
 model.build_model(
    api_key=key,
@@ -42,9 +43,10 @@ And getting a prediction for your model is just as simple:
 
 ```python
 from clevrml import Image_Model
+import os
 
 model = Image_Model()
-key = "<YOUR API KEY>"     # see official clevrML docs for obtaining an API Key
+key = os.environ['clevrml-key']     # see official clevrML docs for obtaining an API Key
 
 model.predict(
    api_key=key,
@@ -58,9 +60,10 @@ With Active Memory Learning, you can edit your model by simply adding new inputs
 
 ```python
 from clevrml import Image_Model
+import os
 
 model = Image_Model()
-key = "<YOUR API KEY>"     # see official clevrML docs for obtaining an API Key
+key = os.environ['clevrml-key']     # see official clevrML docs for obtaining an API Key
 
 # adding to our cat and dog classes along with creating a new "fish" class.
 model.edit_model(
