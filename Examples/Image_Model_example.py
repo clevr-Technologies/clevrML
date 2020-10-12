@@ -33,3 +33,12 @@ model.predict(
   image_file_path='/path/yield_sign_test.jpg',
   model_name='Traffic-Sign-Classifier'
 )
+
+
+# If you want to make an edit to the existing model, you can with the .edit_model() method. For example, if we want to add "traffic-light", we could do so:
+model.edit_model(
+  api_key=key,
+  class_names=['traffic-light'],
+  example_folders=['/tmp/traffic-light-examples/'],
+  model_name='Traffic-Sign-Classifier'
+)
