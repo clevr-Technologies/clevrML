@@ -82,7 +82,6 @@ clevrML currently supports the following types of custom models:
  Models 
 ------------ |
 Image Classification 
-Forecasting
 Text Classification
 
 
